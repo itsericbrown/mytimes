@@ -1,0 +1,189 @@
+body {
+    margin: 0px 0px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    height: 80px;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    flex-grow: 1;
+}
+
+.logo img {
+    padding-right: 12px;
+}
+
+.logo span{
+    color: MediumAquamarine;
+}
+
+header nav {
+    padding-right: 40px;
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;   
+}
+
+nav a {
+    text-decoration: none
+    cursor: auto;
+    color: black;
+}
+
+nav {
+    display: block;
+}
+
+.content {
+    display: flex;
+    width: 1232px;
+    margin: 0 auto 78px auto;
+    padding-top: 116px;
+}
+
+div {
+    display: block;
+}
+
+.stories {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.stories .text-content {
+    height: 250px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 32px;
+}
+
+.column.large {
+    width: 630px;
+}
+
+h2 {
+    display: block;
+    font-weight: bold;
+}
+
+.narrative {
+    margin-top: 16px;
+}
+
+.column.medium {
+    width: 300px;
+}
+
+.column.small {
+    width: 240px;
+}
+
+p {
+    display: block;
+}
+
+.lead-story .image-content {
+    background-image: url(/Resources/Images/Champagne.png);
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    text-align: left;
+    margin-top: 0;
+}
+
+.fall-story.image-content {
+    background-image: url(/Resources/Images/Woman.png);
+}
+
+.pop-culture.image-content {
+    background-image: url(/Resources/Images/Cameraman.png);
+}
+
+.column.medium .image-content {
+    background-image: url(/Resources/Images/Cat.png);
+}
+
+.image-content {
+    height: 300px;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.bite {
+    display: block;
+    padding: 11px 20px;
+    background-color: WhiteSmoke;
+    font-family: Verdana;
+    font-size: 12px;
+    color: DimGray;
+    border-bottom: 1px solid black;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: MediumAquamarine;
+    width: 100%;
+    font-family: Verdana;
+    font-size: 12px;
+    height: 325px;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+footer .title {
+    display: inline-block;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding-right: 25px;
+    border-right: 2px solid white;
+}
+
+footer nav {
+    display: inline-block;
+    padding-left: 25px;
+}
